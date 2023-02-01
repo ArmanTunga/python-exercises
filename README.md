@@ -1,6 +1,6 @@
 # python_exercises
 
-### Basic Python Exercises
+### Python Exercises Homework of Miuul
 
 ## One Of The Examples:
 
