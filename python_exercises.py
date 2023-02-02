@@ -144,8 +144,11 @@ def odds_evens(numbers: list[int]) -> (list[int], list[int]):
         evens: list of even numbers
 
     """
-    odds = [number for number in numbers if number % 2 != 0]
-    evens = [number for number in numbers if number % 2 == 0]
+    # odds = [number for number in numbers if number % 2 != 0]
+    # evens = [number for number in numbers if number % 2 == 0]
+    odds = []
+    evens = []
+    [odds.append(number) if number % 2 != 0 else evens.append(number) for number in numbers]
     return odds, evens
 
 
