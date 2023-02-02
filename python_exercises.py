@@ -113,7 +113,8 @@ dict.values()  # output: dict_values([['America', 18], ['England', 12], ['Spain'
 
 # Adım 3: Daisy key'ine ait 12 değerini 13 olarak güncelleyiniz.
 # Step 3: Update the value 12 of the Daisy key to 13.
-dict["Daisy"] = ["England", 13]
+dict["Daisy"][1] = 13
+dict["Daisy"]
 
 # Adım 4: Key değeri Ahmet value değeri [Turkey,24] olan yeni bir değer ekleyiniz.
 # Step 4: Add a new key, value:  key is Ahmet, value is [Turkey,24].
